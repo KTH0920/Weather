@@ -1,6 +1,6 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 * {
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,6 +46,13 @@ h1 {
 }
 
 .input-wrap button[disabled] {
-  opacity: .6;
+  opacity: 0.6;
   cursor: not-allowed;
+}
+
+section {
+  height: 100vh;
+  background: #f6f7fb;
+  width: 100%;
+  padding-top: 100px;
 }
